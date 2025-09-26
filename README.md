@@ -58,3 +58,34 @@ repeat customers and target them with personalized marketing campaigns.
   Calculate the 3-month moving average of 
 customization sales to smooth out any short-term fluctuations and identify 
 longer-term trends in customization demand.
+
+# Step 3: Database Schema 
+## 📊 Database Schema  
+
+### 🧑 Customer_info
+| Column      | Type        | Example   |
+|-------------|-------------|-----------|
+| customer_id | VARCHAR(20) | c001      |
+| name        | VARCHAR(50) | Darius    |
+| region      | VARCHAR(50) | Kigali    |
+
+---
+
+### 📦 Product_catalog
+| Column       | Type        | Example                |
+|--------------|-------------|------------------------|
+| product_id   | VARCHAR(20) | 001                    |
+| product_name | VARCHAR(50) | Exhaust systems        |
+| category     | VARCHAR(50) | Performance enhancement|
+
+---
+
+### 💰 Sales
+| Column      | Type        | Example        |
+|-------------|-------------|----------------|
+| sales_id    | VARCHAR(20) | 010101         |
+| customer_id | VARCHAR(20) | c001           |
+| product_id  | VARCHAR(20) | 001            |
+| sales_date  | VARCHAR(50) | 21st Sept 2025 |
+| amount      | INTEGER     | 1000           |
+
