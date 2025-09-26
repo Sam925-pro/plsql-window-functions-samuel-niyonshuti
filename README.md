@@ -115,3 +115,22 @@ INSERT INTO Customer (Customer_id, Name, Region)
 VALUES ('c004', 'Juste', 'Gisozi');
 
 ![image alt] (https://github.com/Sam925-pro/plsql-window-functions-samuel-niyonshuti/blob/main/%23Customer.png?raw=true).
+
+  ### 2.Creation of Products table
+CREATE TABLE Product (
+  Product_id VARCHAR(20) PRIMARY KEY,
+  Product_name VARCHAR(50) NOT NULL,
+  Category VARCHAR(20)
+
+  ### Insertion of data in Products table
+  INSERT INTO Product (Product_id, Product_name, Category)
+VALUES ('p111', 'wheels and tires', 'Exterior mods');
+
+INSERT INTO Product (Product_id, Product_name, Category)
+VALUES ('p222', 'Sound systems', 'Interior mods');
+
+INSERT INTO Product (Product_id, Product_name, Category)
+VALUES ('p333', 'Exhaust systems', 'Performance enhance');
+
+INSERT INTO Product (Product_id, Product_name, Category)
+VALUES ('p444', 'Towing equip', 'Utility mods');
