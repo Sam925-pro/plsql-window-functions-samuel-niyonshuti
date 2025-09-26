@@ -92,3 +92,24 @@ longer-term trends in customization demand.
 
 The following is **ER Diagram**
 ![image alt] (https://github.com/Sam925-pro/plsql-window-functions-samuel-niyonshuti/blob/main/ER%20diagram.png?raw=true)
+
+## Table creation and insertion of data
+  ### 1.Creation of Customers table
+  CREATE TABLE Customer (
+  Customer_id VARCHAR(20) PRIMARY KEY,
+  Name VARCHAR(50) NOT NULL,
+  Region VARCHAR(20)
+  );
+
+  ### Insertion of data IN Customers table
+INSERT INTO Customer (Customer_id, Name, Region) 
+VALUES ('c001', 'Darius', 'Gahanga');
+
+INSERT INTO Customer (Customer_id, Name, Region)
+VALUES ('c002', 'Musa', 'Kacyiru');
+
+INSERT INTO Customer (Customer_id, Name, Region)
+VALUES ('c003', 'Remy', 'Remera');
+
+INSERT INTO Customer (Customer_id, Name, Region)
+VALUES ('c004', 'Juste', 'Gisozi');
