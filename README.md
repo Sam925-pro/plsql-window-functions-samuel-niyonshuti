@@ -89,4 +89,6 @@ longer-term trends in customization demand.
 | sales_date  | VARCHAR(50) | 21st Sept 2025 |
 | amount      | INTEGER     | 1000           |
 
+
+The following is **ER Diagram**
 ![image alt] (https://github.com/Sam925-pro/plsql-window-functions-samuel-niyonshuti/blob/main/ER%20diagram.png?raw=true)
