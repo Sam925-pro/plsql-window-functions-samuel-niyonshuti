@@ -113,3 +113,5 @@ VALUES ('c003', 'Remy', 'Remera');
 
 INSERT INTO Customer (Customer_id, Name, Region)
 VALUES ('c004', 'Juste', 'Gisozi');
+
+![image alt] (https://github.com/Sam925-pro/plsql-window-functions-samuel-niyonshuti/blob/main/%23Customer.png?raw=true).
